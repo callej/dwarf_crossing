@@ -183,6 +183,7 @@ Doing the math shows that the optimal solution will give a total crossing time o
 
 This is the same result as the greedy approach gave using the Python implemented algorithm.
 
+<br/>
 
 ## End Note
 
@@ -191,6 +192,8 @@ As what is obvious from above is that the easiest way to solve this and to prove
 2. The way to overload operators in order to make the obejcts able to use  regular operators making the code more logical, shorter, clearer and easier to understand.
 3. The ability to create custom exceptions with all information needed to have detailed knowledge of the conditions when an exception occur, being able to take the correct action and provide the most informative information.
 4. How to write test cases that verifies all the expected functionality, making the results from the actual run of the program much more trustworty.
+
+Regarding how to write test cases, there is a unit test template, unittest_template.py, also checked in to this repository together with a program, fibonacci.py. The file unittest_template.py is a good reference and starting point to get started with unit testing in Python. It contains all the basics needed for unit testing and it can be run as it is on the fibonacci.py file to get some understanding on how unit tests work, and how they can be created and executed. The template can be used as a starting point when creating test cases for some other target project by keeping the structure and only changing the class names and test cases to match what should be tested. 
 
 In summary, modeling and investigating problems using Python is easy and can provide a clean and efficient structure that can easily be modified to allow for further explorations.
 
